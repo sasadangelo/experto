@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #e4e0e0;
+    color: #333;
 }
 
 header {
@@ -35,6 +35,7 @@ header {
 
 #social-buttons a {
     margin-left: 10px;
+    text-decoration: none;
 }
 
 #social-buttons img {
@@ -257,20 +258,6 @@ h2 {
     background-repeat: no-repeat;
 }
 
-/*
-.pros-cons h3 {
-    margin-bottom: 5px;
-}
-
-.pros-cons ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.pros-cons ul li {
-    margin-bottom: 5px;
-}
-*/
 .attributes {
     margin-top: 20px;
 }
@@ -315,4 +302,30 @@ select {
     float: right;
     font-size: 28px;
     cursor: pointer;
+}
+
+.specs-button {
+    background-color: #28a745; /* Colore di sfondo blu */
+    color: white; /* Colore del testo bianco */
+    padding: 10px 20px; /* Spaziatura interna */
+    border: none; /* Rimuovi il bordo predefinito */
+    border-radius: 5px; /* Angoli arrotondati */
+    font-size: 16px; /* Dimensione del testo */
+    font-weight: bold; /* Testo in grassetto */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+    transition: background-color 0.3s, transform 0.3s; /* Transizione morbida per hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiungi un'ombra */
+    display: inline-block; /* Per comportarsi come un bottone */
+}
+
+.specs-button:hover {
+    background-color: #218838; /* Cambia colore di sfondo al passaggio del mouse */
+    transform: translateY(-2px); /* Solleva leggermente il bottone */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Aumenta l'ombra al passaggio del mouse */
+}
+
+.specs-button:active {
+    background-color: #1e7e34; /* Colore al clic */
+    transform: translateY(0); /* Ripristina la posizione */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ripristina l'ombra */
 }
