@@ -257,7 +257,7 @@ h2 {
     background-position: 1px;
     background-repeat: no-repeat;
 }
-
+/*
 .attributes {
     margin-top: 20px;
 }
@@ -274,7 +274,7 @@ select {
     padding: 5px;
     font-size: 16px;
 }
-
+*/
 /* Stile per il popup */
 .popup {
     display: none;
